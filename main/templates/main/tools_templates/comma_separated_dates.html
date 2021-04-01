@@ -1,0 +1,27 @@
+{% extends 'main/header.html' %}
+{% block content %}
+<h1>Comma Separated Dates Generator</h1>
+<div class="tool_holder">
+  <div class="input_holder">
+    <label for="date_format">Date Format</label>
+    <select name="date_format" id="date_format_select">
+      <option value="YYYY-MM-DD">YYYY-MM-DD</option>
+      <option value="DD/MM/YYYY">DD/MM/YYYY</option>
+    </select>
+    <br>
+    <label for="separator">Separator character</label>
+    <input type="text" name="separator" value=",">
+    <br>
+    <label for="start">Start Date:</label>
+    <input type="text" name="start" value="">
+    <br>
+    <label for="finish">End Date:</label>
+    <input type="text" name="finish" value="">
+  </div>
+  <div class="result_holder">
+    <label for="result">Result</label><br>
+    <textarea name="result" rows="8" cols="80"></textarea>
+  </div>
+</div>
+
+{% endblock %}
