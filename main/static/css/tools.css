@@ -1,0 +1,35 @@
+input.valid {
+  border: solid 2px green;
+  border-color: green; }
+
+input {
+  padding: 10px; }
+
+a {
+  text-decoration: none; }
+
+.navbar {
+  padding: 10px; }
+  .navbar h1 a {
+    font-family: "Rubik", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 65px;
+    color: #9B98FF; }
+  .navbar ul {
+    list-style: none;
+    list-style-type: none;
+    padding: 0px; }
+    .navbar ul li {
+      padding: 10px;
+      border: 2px solid black;
+      display: inline-block;
+      font-family: "Rubik", Sans-serif;
+      font-size: 18px;
+      color: black; }
+      .navbar ul li:hover {
+        background: #9B98FF20; }
+      .navbar ul li a {
+        color: black; }
+
+/*# sourceMappingURL=tools.css.map */
